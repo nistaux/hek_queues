@@ -136,7 +136,6 @@ fn do_movement(op: Movement, rng: &mut ThreadRng, enigo: &mut Enigo) {
             enigo.key_up(S);
         }
         Movement::SquigleAllAround => {
-            println!("WE SQUIGLED");
             enigo.key_down(W);
             thread::sleep(Duration::from_millis(rng.gen_range(10..112)));
             enigo.key_down(A);
