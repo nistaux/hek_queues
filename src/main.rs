@@ -8,7 +8,7 @@ const A: Key = Key::Layout('a');
 const S: Key = Key::Layout('s');
 const D: Key = Key::Layout('d');
 const SPACE: Key = Key::Space;
-
+// test
 fn main() {
     println!("\n\nImitating random movement keyboard events every 1-10 minutes...\n\n");
     println!("To Quit: Click the X on this window or press Ctrl+C in the console\n\n ");
